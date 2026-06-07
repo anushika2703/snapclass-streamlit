@@ -1,0 +1,15 @@
+#utilities
+numpy # we use its array because it is faster and provides more operations, procides python standard list.
+pandas
+scikit-learn #for svm to classify faces; used for face recognition
+dlib-bin #image processing; face ke ange square bnn jata hai; mainly used in face recognition
+git+https://github.com/ageitgey/face_recognition_models
+setuptools
+
+#
+supabase #basically 1-2gb ka free postgre sql database de deta hai joki bahut effiecient hota hai or enough hota hai for projects like this
+bcrypt #jbb bhi ap database store krte ho toh usko aise hi sotre nhi krte ho because user, password compromise hote hai toh ap hash ka use krte ho; hashing apke username ya password ko random numbers ya symbol mein convert kr deta hai
+
+segno  #ap isko link provide kro yeh QR code generate krke de deta hai
+pillow #image preprocessing mein help krti hai; python mei image import krne ke liye bhi use hoti hai; bahut sare methods deta hai image ko resize krne ka; transform krne ka; flip krne ka; color change krne ka 
+streamlit #frontend-UI interface
