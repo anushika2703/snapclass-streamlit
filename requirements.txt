@@ -4,7 +4,6 @@ pandas
 scikit-learn 
 dlib-bin 
 git+https://github.com/ageitgey/face_recognition_models
-setuptools
 supabase 
 bcrypt 
 
@@ -14,5 +13,6 @@ pillow
 
 librosa   # edit ya load krna audio files ko
 resemblyzer # embedding mein cobnvert krta hai audio files taki hum ML lgakr compare kr paye audio files ko
+setuptools<81
 
 
